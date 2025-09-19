@@ -1,0 +1,110 @@
+/* -------------------- Messages -------------------- */
+body
+{
+    background-color: rgb(21, 51, 70);
+}
+
+.message 
+{
+    position: relative;
+    size: 20px 20px 20px 20px;
+    max-width: 300px;
+    line-height: 1.4;
+    border-radius: 15px;
+    padding: 10px 50px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.other
+{
+    background-color: lightgreen;
+    margin-right: 100px;
+    text-align: start;
+}
+
+.own
+{
+    background-color: lightblue;
+    margin-left: 100px;
+    text-align: end;
+}
+
+.message .name
+{
+    font-weight: bold;
+    color: cadetblue;
+}
+
+.message .text
+{
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.message .time
+{
+    position: absolute;
+    right: 10px;
+    bottom: 4px;
+    font-size: 0.75em;
+    color: black;
+}
+
+
+/* -------------------- Form -------------------- */
+
+.form 
+{
+    position: relative;
+    columns: 2;
+    size: 20px 20px 20px 20px;
+    max-width: 500px;
+    line-height: 1.4;
+    border-radius: 15px;
+    padding: 10px 50px 10px 10px;
+    background-color: lightgray;
+}
+
+
+.form .contentContainer
+{
+    grid-row: 1;
+    /*background-color: blue;*/
+}
+
+.form .label
+{
+    font-weight: bold;
+    color: cadetblue;
+}
+
+.form .inputText
+{
+    background-color: lightblue;
+    resize: none;
+    width: 220%;
+    height: 100px;
+    size: 100px 100px 100px 100px;
+}
+
+.form .buttonContainer
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    right: 10px;
+    top: 10px;
+    align-content: center;
+    padding: 0px 10px 0px 10px;
+    /*background-color: green;*/
+}
+
+.form .btn
+{
+    right: 10px;
+    top: 10px;
+    align-content: center;
+    padding: 0px 10px 0px 10px;
+    /*background-color: green;*/
+}

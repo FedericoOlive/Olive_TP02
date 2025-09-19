@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+
+<body>
+    <div class="messagesList" id="messagesList">
+        <!-- Start Template -->
+        <div class="message">
+            <span class="name">Nombre</span>
+            <p class="text">Texto</p>
+            <p class="time">00:00</p>
+            <hr />
+        </div>
+        <!-- End Template -->
+    </div>
+
+    <form class="form" id="form">
+
+        <div class="contentContainer">
+            <label for="inputText" class="label">Mensaje: </label>
+            <textarea class="inputText" name="message" id="inputText" placeholder="Ingrese el texto aquí..."></textarea>
+        </div>
+
+        <div class="buttonContainer">
+            <button type="submit" class="btn">Enviar</button>
+        </div>
+        
+        <span id="errorText"></span>
+    </form>
+
+    <script src="./Scripts/main.js"></script>
+</body>
+
+</html>
