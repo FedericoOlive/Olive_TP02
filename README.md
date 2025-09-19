@@ -17,17 +17,6 @@
 Este proyecto es el **TP02 de Federico Olive**, desarrollado como parte de la cursada de **Curso de Desarrollo en React JS** del docente **Matías Gimenez**.  
 Contiene una página web de simulación de chat.
 
-## 💡 Implementaciones
-
-La página incluye varias características destacadas:
-
-- **Soporte multilenguaje (5 idiomas):** Español, Inglés, Francés, Italiano y Portugués, con cambio dinámico de textos y sin recargar la página.
-- **Carrito de materias:** Permite agregar y quitar artículos, manteniendo sincronizado el catálogo y el carrito.
-- **Catálogo ordenado:** Los artículos se insertan y mantienen ordenados por ID incluso al agregarlos o quitarlos del carrito.
-- **Formulario de suscripción:** Captura nombre, email, teléfono, edad y mensaje.
-- **Slider/scroll horizontal:** El catálogo se presenta en un slider arrastrable con el mouse.
-- **Carga dinámica de artículos:** Los datos de los cursos se obtienen desde archivos JSON y se renderizan en el catálogo.
-
 ---
 
 ## 🛠 Tecnologías
